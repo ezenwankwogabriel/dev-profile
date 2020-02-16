@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="vendors/animate-css/animate.css" />
     <link rel="stylesheet" href="vendors/popup/magnific-popup.css" />
     <link rel="stylesheet" href="vendors/flaticon/flaticon.css" />
+    <link href="css/aos.css" rel="stylesheet">
     <!-- main css -->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
@@ -60,13 +61,18 @@
                   </ul>
                   <ul class="list personal_social">
                     <li>
-                      <a href="#"><i class="fa fa-facebook"></i></a>
+                      <a target="_blank" href="https://github.com/ezenwankwogabriel"><i class="fa fa-github"></i></a>
                     </li>
                     <li>
-                      <a href="#"><i class="fa fa-twitter"></i></a>
+                      <a target="_blank" href="https://twitter.com/dagabangell"><i class="fa fa-twitter"></i></a>
                     </li>
                     <li>
-                      <a href="#"><i class="fa fa-linkedin"></i></a>
+                      <a target="_blank" href="https://www.linkedin.com/in/ezenwankwo-gabriel-6a101686/"><i class="fa fa-linkedin"></i></a>
+                    </li>
+                    <li>
+                      <a rel="tooltip" title="hello" data-original-title="Check out my Stackoverflow Page" target="_blank" href="https://stackoverflow.com/users/10607872/gabriel-ezenwankwo" >
+                        <i class="fa fa-stack-overflow"></i>
+                      </a>
                     </li>
                   </ul>
                 </div>
@@ -81,8 +87,8 @@
     <!--================Welcome Area =================-->
     <section class="welcome_area p_120">
       <div class="container">
-        <div class="row welcome_inner">
-          <div class="col-lg-6">
+        <div class="row welcome_inner" data-aos="fade-up">
+          <div class="col-lg-6" >
             <div class="welcome_text">
               <h4>Technical Skills</h4>
               <p>
@@ -92,29 +98,6 @@
 								(Studying): Algorithms, Product Management, Cyber Security <br>
 								(Domain): Automated Test, CI/CD Pipelines, RESTful API, GraphQL <br>
               </p>
-              <!-- <div class="row">
-                <div class="col-md-4">
-                  <div class="wel_item">
-                    <i class="lnr lnr-database"></i>
-                    <h4>$2.5M</h4>
-                    <p>Total Donation</p>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="wel_item">
-                    <i class="lnr lnr-book"></i>
-                    <h4>1465</h4>
-                    <p>Total Projects</p>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="wel_item">
-                    <i class="lnr lnr-users"></i>
-                    <h4>3965</h4>
-                    <p>Total Volunteers</p>
-                  </div>
-                </div>
-              </div> -->
             </div>
           </div>
           <div class="col-lg-6">
@@ -228,7 +211,7 @@
               >
             </li>
           </ul>
-          <div class="tab-content" id="myTabContent">
+          <div data-aos="fade-up" class="tab-content" id="myTabContent">
             <div
               class="tab-pane fade show active"
               id="home"
@@ -361,13 +344,13 @@
       <div style="align-items:center" class="container">
         <div class="card mb-3">
           <div class="row no-gutters">
-            <div class="col-md-4">
+            <div class="col-md-4" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
               <img src="img/files/verify.png" class="card-img" alt="...">
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
               <div class="card-body">
                 <h5 class="card-title">Nester Verify</h5>
-                <p class="card-text">Nester Verify is an online web application for address and guarantor verification, an easy to use solution with a turnaround time of 24hrs. Verifies the identities of clients, vendors and partners in real time. KYC checks of over 200 million people within Nigeria.</p>
+                <p class="card-text">Nester Verify is an online web application for address and guarantor verification, an easy to use solution with a turnaround time of 24hrs. Verifies the identities of clients, vendors and partners in real time. KYC checks of over 200 million people within Nigeria. NodeJS, Express, Vue JS, Mongodb, Docker, Azure Devops were used to build the app.</p>
                 <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
               </div>
             </div>
@@ -375,14 +358,30 @@
         </div>
         <div class="card mb-3">
           <div class="row no-gutters">
-            <div class="col-md-4">
+            <div class="col-md-4" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+              <img src="img/files/zeedas_img.jpg" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+              <div class="card-body">
+                <h5 class="card-title">Zeedas</h5>
+                <p class="card-text">An advanced Project Management Tool that allows product owners to manage and track the
+                    development process of their project easily. NodeJS, Express, Vue JS, Python, Mongodb,
+                    Docker were used to build the app.</p>
+                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3">
+          <div class="row no-gutters">
+            <div class="col-md-4" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
               <img src="img/files/tbca.png" class="card-img" alt="...">
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
               <div class="card-body">
                 <h5 class="card-title">Tbca</h5>
                 <p class="card-text">Innovative companies trust TBCA to get critical projects done.
-                    TBCA is changing the way work gets done. Get your business projects done fast with the best experts and consulting firms in the world. Anytime, Anywhere. It is extremely easy to use, seamless and totally transparent</p>
+                    TBCA is changing the way work gets done. Get your business projects done fast with the best experts and consulting firms in the world. Anytime, Anywhere. It is extremely easy to use, seamless and totally transparent. NodeJS, Express, Vue JS, Mongodb, Docker were used to build the app.</p>
                 <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
               </div>
             </div>
@@ -390,14 +389,14 @@
         </div>
         <div class="card mb-3">
           <div class="row no-gutters">
-            <div class="col-md-4">
+            <div class="col-md-4" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
               <img src="img/files/nesterpod.png" class="card-img" alt="...">
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
               <div class="card-body">
                 <h5 class="card-title">NesterPOD</h5>
                 <p class="card-text">Manage All Your Logistics in One Place
-                    NesterPOD is an advanced electronic Proof of Delivery Solution, a web app and mobile solution for effective and efficient real-time driver performance monitoring and delivery confirmation.</p>
+                    NesterPOD is an advanced electronic Proof of Delivery Solution, a web app and mobile solution for effective and efficient real-time driver performance monitoring and delivery confirmation. NodeJS, Express, Vue JS, PostgresQl, Microsoft Azure, App service, were used to build the app.</p>
                 <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
               </div>
             </div>
@@ -405,13 +404,13 @@
         </div>
         <div class="card mb-3">
           <div class="row no-gutters">
-            <div class="col-md-4">
+            <div class="col-md-4" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
               <img src="img/files/getany.png" class="card-img" alt="...">
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
               <div class="card-body">
                 <h5 class="card-title">GetanyFood</h5>
-                <p class="card-text">GetanyFood is an appliation designed and developed to cater to online demand for cooked food, groceries, fresh food, frozen food, food ingredients, drinks and wines. This solution would give customers access to a diverse set of restaurants, bars and merchants that provide this services via a mobile app.</p>
+                <p class="card-text">GetanyFood is an appliation designed and developed to cater to online demand for cooked food, groceries, fresh food, frozen food, food ingredients, drinks and wines. This solution would give customers access to a diverse set of restaurants, bars and merchants that provide this services via a mobile app. NodeJS, Express, Vue JS, Mongodb, Docker were used to build the app.</p>
                 <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
               </div>
             </div>
@@ -420,6 +419,71 @@
       </div>
     </section>
     <!--================End Home Gallery Area =================-->
+
+    <!--===============Contact ======================-->
+    <div class="section" id="contact" tabindex="-1">
+        <div class="cc-contact-information" style="background-image: url('img/files/staticmap.png');">
+          <div class="container">
+            <div class="cc-contact">
+              <div class="row">
+                <div class="col-md-9">
+                  <div class="card mb-0 aos-init" data-aos="zoom-in">
+                    <div class="h4 text-center title">Contact Me</div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="card-body">
+                          <form action="https://formspree.io/mlebkyry" method="POST">
+                            <div class="p pb-3"><strong>Feel free to contact me </strong></div>
+                            <div class="input-group mb-3">
+                              <div class="input-group-prepend">
+                                <span class="input-group-text" id="basic-addon1"><i class="fa fa-user"></i></span>
+                              </div>
+                              <input type="text" class="form-control" placeholder="Name" name="name" aria-label="Name" aria-describedby="basic-addon1">
+                            </div>
+                            <div class="input-group mb-3">
+                              <div class="input-group-prepend">
+                                <span class="input-group-text" id="basic-addon2"><i class="fa fa-file-text"></i></span>
+                              </div>
+                              <input type="text" class="form-control" placeholder="Subject" name="Subject" aria-label="Subject" aria-describedby="basic-addon2">
+                            </div>
+                            <div class="input-group mb-3">
+                              <div class="input-group-prepend">
+                                <span class="input-group-text" id="basic-addon3"><i class="fa fa-envelope"></i></span>
+                              </div>
+                              <input type="email" class="form-control" placeholder="E-mail" name="_replyto" aria-label="E-mail" aria-describedby="basic-addon3">
+                            </div>
+                            <div class="input-group mb-3">
+                              <div class="input-group-prepend">
+                                <span class="input-group-text" id="basic-addon4"><i class="fa fa-user-circle"></i></span>
+                              </div>
+                              <textarea name="name" placeholder="Your Message" arial-label="Username" aria-describedby="basic-addon4" class="form-control"></textarea>
+                            </div>
+                            <div class="row">
+                              <div class="col">
+                                <button class="btn btn-primary" type="submit">Send</button>
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="card-body">
+                          <p class="mb-0"><strong>Address </strong></p>
+                          <p class="pb-2">Skyfield Apartment, Sabo, Yaba, Lagos State, Nigeria</p>
+                          <p class="mb-0"><strong>Phone</strong></p>
+                          <p class="pb-2">+234 7033305220</p>
+                          <p class="mb-0"><strong>Email</strong></p>
+                          <p>ezenwankwogabriel@gmail.com</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -438,5 +502,10 @@
     <script src="vendors/counter-up/jquery.counterup.min.js"></script>
     <script src="js/mail-script.js"></script>
     <script src="js/theme.js"></script>
+    <script src="js/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
